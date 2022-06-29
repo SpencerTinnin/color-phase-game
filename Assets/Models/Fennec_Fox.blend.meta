@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 089a16298952b4c7ab453ea59239fdd9
+timeCreated: 1477106988
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Back_Foot_L
+    100004: Back_Foot_R
+    100006: Back_Hip_L
+    100008: Back_Hip_R
+    100010: Back_Spine
+    100012: Base
+    100014: Bone_Shapes
+    100016: Ear_L
+    100018: Ear_R
+    100020: Fennec
+    100022: //RootNode
+    100024: Front_Foot_L
+    100026: Front_Foot_R
+    100028: Front_Hip_L
+    100030: Front_Hip_R
+    100032: Front_Spine
+    100034: Head
+    100036: Lower_Back_Leg_L
+    100038: Lower_Back_Leg_R
+    100040: Lower_Front_Leg_L
+    100042: Lower_Front_Leg_R
+    100044: Neck
+    100046: Tail_1
+    100048: Tail_2
+    100050: Tail_3
+    100052: Upper_Back_Leg_L
+    100054: Upper_Back_Leg_R
+    100056: Upper_Front_Leg_L
+    100058: Upper_Front_Leg_R
+    400000: Armature
+    400002: Back_Foot_L
+    400004: Back_Foot_R
+    400006: Back_Hip_L
+    400008: Back_Hip_R
+    400010: Back_Spine
+    400012: Base
+    400014: Bone_Shapes
+    400016: Ear_L
+    400018: Ear_R
+    400020: Fennec
+    400022: //RootNode
+    400024: Front_Foot_L
+    400026: Front_Foot_R
+    400028: Front_Hip_L
+    400030: Front_Hip_R
+    400032: Front_Spine
+    400034: Head
+    400036: Lower_Back_Leg_L
+    400038: Lower_Back_Leg_R
+    400040: Lower_Front_Leg_L
+    400042: Lower_Front_Leg_R
+    400044: Neck
+    400046: Tail_1
+    400048: Tail_2
+    400050: Tail_3
+    400052: Upper_Back_Leg_L
+    400054: Upper_Back_Leg_R
+    400056: Upper_Front_Leg_L
+    400058: Upper_Front_Leg_R
+    2300000: Bone_Shapes
+    3300000: Bone_Shapes
+    4300000: Fennec
+    4300002: Bone_Shapes
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: Fennec_Walk
+    7400006: Fennec_Idle
+    7400008: Fennec_Walk_To_Idle
+    9500000: //RootNode
+    13700000: Fennec
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Back_Spine
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L/Back_Foot_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R/Back_Foot_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Armature/Base/Front_Spine
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L/Front_Foot_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R/Front_Foot_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_R
+        weight: 1
+      - path: Bone_Shapes
+        weight: 1
+      - path: Fennec
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Back_Spine
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L/Back_Foot_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R/Back_Foot_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Armature/Base/Front_Spine
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L/Front_Foot_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R/Front_Foot_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_R
+        weight: 1
+      - path: Bone_Shapes
+        weight: 1
+      - path: Fennec
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fennec_Walk
+      takeName: Default Take
+      firstFrame: 60
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Back_Spine
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L/Back_Foot_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R/Back_Foot_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Armature/Base/Front_Spine
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L/Front_Foot_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R/Front_Foot_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_R
+        weight: 1
+      - path: Bone_Shapes
+        weight: 1
+      - path: Fennec
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fennec_Idle
+      takeName: Default Take
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Back_Spine
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L/Back_Foot_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R/Back_Foot_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Armature/Base/Front_Spine
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L/Front_Foot_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R/Front_Foot_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_R
+        weight: 1
+      - path: Bone_Shapes
+        weight: 1
+      - path: Fennec
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fennec_Walk_To_Idle
+      takeName: Default Take
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Base
+        weight: 1
+      - path: Armature/Base/Back_Spine
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_L/Upper_Back_Leg_L/Lower_Back_Leg_L/Back_Foot_L
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Back_Hip_R/Upper_Back_Leg_R/Lower_Back_Leg_R/Back_Foot_R
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2
+        weight: 1
+      - path: Armature/Base/Back_Spine/Tail_1/Tail_2/Tail_3
+        weight: 1
+      - path: Armature/Base/Front_Spine
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_L/Upper_Front_Leg_L/Lower_Front_Leg_L/Front_Foot_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Front_Hip_R/Upper_Front_Leg_R/Lower_Front_Leg_R/Front_Foot_R
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_L
+        weight: 1
+      - path: Armature/Base/Front_Spine/Neck/Head/Ear_R
+        weight: 1
+      - path: Bone_Shapes
+        weight: 1
+      - path: Fennec
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
